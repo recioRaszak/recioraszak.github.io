@@ -2,7 +2,7 @@
 title: Fucking blog
 email: contact@israelmateo.com
 description: Just another fucking blog
-baseurl: "/blog.html" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://recioraszak.github.io" # the base hostname & protocol for your site
 twitter_username: lannisterogilvy
 github_username:  recioraszak
