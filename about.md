@@ -4,8 +4,22 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Soy un cyborg. Un replicante. Un cylon.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Me gusta como me queda el gazpacho. Tengo pareja, un niño y un gato. Hago cosas con el ordenador. Me gusta el diseño. Bueno, hasta que me cansé, estudié diseño. Me gusta el arte. Incluso el que no entiendo. Me gusta el pop, el rock, el indie y muchas cosas más de la música.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+No hago deporte. Debería. Tengo una edad. Debería cuidarme.
+
+Fumo. Porros no.
+
+Hago webs. Las diseño y las monto. No programo. Me lío con tanto array y tanto debug.
+
+Sólo hago if esto, haz esto otro. Y cuatro cosas sueltas. Pero fliparías lo que he llegado a montar.
+
+No, no soy de esos que tiran absolutamente para todo de software* y plugins. Yo trasteo. Y mucho.
+
+Decirme *agoserat* pero un poco hacker sí que me considero.
+
+Y ya no sé que más decir de mí...
+
+(http://www.israelmateo.com "www.israelmateo.com")
