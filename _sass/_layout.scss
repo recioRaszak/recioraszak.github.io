@@ -17,12 +17,15 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    color:white!important;
 
     &,
     &:visited {
         color: $grey-color-dark;
     }
+}
+
+.site-title a {
+    color:white;
 }
 
 .site-nav {
