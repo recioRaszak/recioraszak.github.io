@@ -1,25 +1,16 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-11-07 07:30:42
-categories: jekyll update
+title:  "El hombre que todo empieza y nada acaba: Ése soy yo"
+date:   2015-11-16 23:10:42
+categories: Entradas personales
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Llevo nosecuantos intentos de empezar a escribir las mil y una cosas que me pasan por la cabeza a lo largo del día.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Hace algo más de un mes, creé un nuevo blog en tumblr, una plataforma que me gusta bastante y con una facilidad de uso espeluznante. Pero tengo demasiadas inquietudes y quería algo más técnico y a la vez minimalista (complicado que es uno).
 
-Jekyll also offers powerful support for code snippets:
+Mi conciliación vida familiar/trabajo por cuenta ajena, no me deja demasiado tiempo libre, así que, por muchos objetivos que me marque no tengo la menor idea de cuando podré volver a trastear con este blog.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Empezaré por lo de siempre, con un about escrito con muchas ganas y a ver que pasa.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+¡Hola!
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
