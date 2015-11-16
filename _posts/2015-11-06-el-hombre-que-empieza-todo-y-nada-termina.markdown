@@ -5,7 +5,8 @@ date:   2015-11-16 23:30:00
 categories: Entradas personales
 ---
 
-![Estoy raruno](http://www.mthai.com/en/wp-content/uploads/2015/07/feel-nothing_gamespot-com.gif)
+![Estoy raruno]
+(http://www.mthai.com/en/wp-content/uploads/2015/07/feel-nothing_gamespot-com.gif)
 
 Llevo nosecuantos intentos de empezar a escribir las mil y una cosas que me pasan por la cabeza a lo largo del día.
 
