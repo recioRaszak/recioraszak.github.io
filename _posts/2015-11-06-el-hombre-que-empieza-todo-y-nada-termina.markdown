@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "El hombre que todo empieza y nada acaba: Ése soy yo"
-date:   2015-11-16 23:10:42
+date:   2015-11-16 23:30:00
 categories: Entradas personales
 ---
 Llevo nosecuantos intentos de empezar a escribir las mil y una cosas que me pasan por la cabeza a lo largo del día.
