@@ -1,14 +1,11 @@
 # Site settings
 title: MotherfAwesomess
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+email: contact@israelmateo.com
+description: Un montón de chorradas y friqueces relacionadas con desarrollo web, diseño, gatos, ciencia ficción barata y otras tonteces.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://recioraszak.github.io" # the base hostname & protocol for your site
+twitter_username: lannisterogilvy
+github_username:  recioraszak
 
 # Build settings
 markdown: kramdown
