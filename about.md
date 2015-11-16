@@ -3,6 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
+![Retrato del autor](http://www.picgifs.com/clip-art/cartoons/woody-woodpecker/clip-art-woody-woodpecker-563779.jpg)
+
 
 Soy un cyborg. Un replicante. Un cylon.
 

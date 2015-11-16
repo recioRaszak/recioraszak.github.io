@@ -4,6 +4,9 @@ title:  "El hombre que todo empieza y nada acaba: Ése soy yo"
 date:   2015-11-16 23:30:00
 categories: Entradas personales
 ---
+
+![Estoy raruno](http://www.mthai.com/en/wp-content/uploads/2015/07/feel-nothing_gamespot-com.gif)
+
 Llevo nosecuantos intentos de empezar a escribir las mil y una cosas que me pasan por la cabeza a lo largo del día.
 
 Hace algo más de un mes, creé un nuevo blog en tumblr, una plataforma que me gusta bastante y con una facilidad de uso espeluznante. Pero tengo demasiadas inquietudes y quería algo más técnico y a la vez minimalista (complicado que es uno).
