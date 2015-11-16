@@ -5,7 +5,8 @@
     border-top: 5px solid $grey-color-light;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    background:$grey-color-dark;
+    background: $grey-color-dark;
+
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -13,7 +14,7 @@
 
 .site-title {
     font-family: $heading-font-family;
-    font-size: 26px;
+    font-size: 22px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -201,12 +202,12 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 28px;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 22px;
     }
 }
 
@@ -214,7 +215,7 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: 24px;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -222,7 +223,7 @@
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 18px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -230,10 +231,10 @@
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 16px;
 
         @include media-query($on-laptop) {
-            font-size: 18px;
+            font-size: 14px;
         }
     }
 }
