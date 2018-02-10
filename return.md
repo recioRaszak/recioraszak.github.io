@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Return
+permalink: /return/
 ---
 Lorem ipsummmm....
