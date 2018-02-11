@@ -18,8 +18,16 @@ body, button, input, select, optgroup, textarea {
     font-weight: 400;
 }
 
-h1 {
+h1,.site-title {
     font-family:antolive;
     font-weight:bold;
     text-transform:uppercase;
+}
+
+.site-title {
+    font-size:48px;
+    line-height:80px;
+    display:inline-block;
+    vertical-align: top;
+    float:none;
 }
