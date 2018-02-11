@@ -18,6 +18,10 @@ body, button, input, select, optgroup, textarea {
     font-weight: 400;
 }
 
+.site-header {
+    position:static;
+}
+
 h1,.site-title {
     font-family:antolive;
     font-weight:bold;
@@ -32,9 +36,42 @@ h1,.site-title {
     float: none;
     text-decoration: none;
     color: azure;
+    width:390px;
     height: 80px;
     letter-spacing: -0.15em;
+    text-align:center;
     transform: skewX(-7deg);
+
+    animation-name:intro;
+    animation-duration:5s;
+    animation-iteration-count:1;
+}
+
+@keyframes intro {
+    0% {
+        letter-spacing: -0.15em;
+        transform: skewX(-7deg)scale(2);
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        display: block;
+        opacity:0;
+    }   
+    30% {
+        letter-spacing: -0.5em;
+        transform: skewX(-7deg)scale(2);
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        display: block;
+        opacity:1;
+    }
 }
 
 .headshot {
