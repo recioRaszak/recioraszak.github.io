@@ -8,6 +8,7 @@ layout: default
     <!--<h1 class="page-heading">Posts</h1>-->
   </section>
 
+  <div class="wrapper uk-container uk-container-center">
 
   <ul class="post-list uk-list uk-list-large">
     {% for post in site.posts %}
@@ -22,5 +23,7 @@ layout: default
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+  </div>
 
 </div>
