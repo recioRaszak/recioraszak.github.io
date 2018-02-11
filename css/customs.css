@@ -14,15 +14,20 @@
 
 
 body, button, input, select, optgroup, textarea {
-    font-family: 'Source Sans Pro';
+    font-family: Lusitana;
     font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family:'Roboto mono';
+    font-weight:600;
 }
 
 .site-header {
     position:static;
 }
 
-h1,.site-title {
+.site-title {
     font-family:antolive;
     font-weight:bold;
     text-transform:uppercase;
