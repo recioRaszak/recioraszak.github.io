@@ -45,6 +45,9 @@ h1,.site-title {
     animation-name:intro;
     animation-duration:5s;
     animation-iteration-count:1;
+
+    transition:1s;
+    position:static;
 }
 
 @keyframes intro {
