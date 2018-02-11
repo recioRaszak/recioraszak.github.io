@@ -36,3 +36,8 @@ h1,.site-title {
     letter-spacing: -0.15em;
     transform: skewX(-7deg);
 }
+
+.headshot {
+    min-height:90vh;
+    background:url(/assets/legolike.jpg) center / cover no-repeat #000;
+}
