@@ -4,14 +4,18 @@
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+    <nav class="uk-navbar-container" uk-navbar>
+      <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            {% for page in site.pages %}
+              {% if page.title %}
+              <li class="uk-active"><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
       </div>
     </nav>
+
 
   </div>
 
