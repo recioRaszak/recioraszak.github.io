@@ -30,4 +30,6 @@ h1,.site-title {
     display:inline-block;
     vertical-align: top;
     float:none;
+    text-decoration:none;
+    color:azure;
 }

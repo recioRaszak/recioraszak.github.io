@@ -1,9 +1,9 @@
 # Site settings
-title: MotherfAwesomess
-email: contact@israelmateo.com
-description: Un montón de chorradas y friqueces relacionadas con desarrollo web, diseño, gatos, ciencia ficción barata y otras tonteces.
+title: Israel Mateo
+email: imateom76@gmail.com
+description: Diseño y desarrollo web, cosas bonitas y curiosas.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://recioraszak.github.io" # the base hostname & protocol for your site
+url: "https://recioraszak.github.io" # the base hostname & protocol for your site
 twitter_username: lannisterogilvy
 github_username:  recioraszak
 
