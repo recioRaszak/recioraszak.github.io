@@ -2,19 +2,26 @@
 
   <div class="wrapper uk-container uk-container-center">
 
-    <a class="site-title branded" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <div class="uk-grid-collapse" uk-grid>
 
-    <nav class="uk-navbar-container uk-navbar-transparent uk-navbar-right uk-light" uk-navbar>
-      <div class="uk-navbar-right">
-          <ul class="uk-navbar-nav">
-            {% for page in site.pages %}
-              {% if page.title %}
-              <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-              {% endif %}
-            {% endfor %}
-          </ul>
+      <div><a class="site-title branded" href="{{ site.baseurl }}/">{{ site.title }}</a></div>
+
+      <div>
+        <nav class="uk-navbar-container uk-navbar-transparent uk-navbar-right uk-light" uk-navbar>
+          <div class="uk-navbar-right">
+              <ul class="uk-navbar-nav">
+                {% for page in site.pages %}
+                  {% if page.title %}
+                  <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+          </div>
+        </nav>
+
       </div>
-    </nav>
+
+    </div>
 
   </div>
 
