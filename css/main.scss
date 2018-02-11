@@ -49,28 +49,3 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
-
-
-@font-face {
-    font-family: 'antolive';
-    src: url('../fonts/AntiqueOliNorOutP-Regu.eot');
-    src: url('../fonts/AntiqueOliNorOutP-Regu.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/AntiqueOliNorOutP-Regu.woff2') format('woff2'),
-        url('../fonts/AntiqueOliNorOutP-Regu.woff') format('woff'),
-        url('../fonts/AntiqueOliNorOutP-Regu.ttf') format('truetype'),
-        url('../fonts/AntiqueOliNorOutP-Regu.svg#AntiqueOliNorOutP-Regu') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-
-
-body, button, input, select, optgroup, textarea {
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
-}
-
-h1 {
-    font-family:antolive;
-    font-weight:bold;
-    text-transform:uppercase;
-}
