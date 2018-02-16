@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width">
+	<title>Drag'n Words - Aprende las letras</title>
+	<script src="interact.js"></script>
+	<script src="funcions.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+	<link rel="stylesheet" href="lletres.css"/>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!-- disable reset on vertical swipe down --> 
+	<intelxdk:crosswalk xwalk-command-line="--disable-pull-to-refresh-effect" /> 
+</head>
+
+<body id="dragndrop">
+
+	<!--<h1>FEM LES LLETRES</h1>-->
+	<img class="logo" src="dragnwords-logo.png" alt="Drag'n Words"/>
+
+	<section class="bloc lletres">
+
+	</section>
+
+	<figure class="dibuix">
+		<img id="figura" src="" alt=""/>
+	</figure>
+
+	<section class="bloc solucio">
+
+	</section>
+
+	<div class="applause">
+		<img src="dibuixos/moltbeos.gif" alt="aplaudiment" style="width:100%"  draggable="false"/>
+	</div>
+	<img src="dibuixos/options.svg" alt="settings" class="settings"/>
+
+
+	<div class="tools hidden">
+		<label><input id="case" type="checkbox" name="case"/> MINÚSCULES</label>
+		
+		<form id="games">
+			<select id="jumpgame">
+				<option default selected value="">Saltar...</option>
+			</select>
+		</form>
+	</div>
+
+<script src="jquery.slim.js"></script>
+<script src="interact.js"></script>
+<script src="funcions.js"></script>
+</body>
+</html>
