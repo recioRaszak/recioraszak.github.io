@@ -4,7 +4,7 @@ RewriteEngine on
 
 RewriteCond %{HTTP_HOST} ^israelmateo.com [NC]
 
-RewriteRule ^(.*)$ http://www.israelmateo.com/$1 [R=301,L]
+#RewriteRule ^(.*)$ http://www.israelmateo.com/$1 [R=301,L]
 
 <ifModule mod_gzip.c>
 mod_gzip_on Yes
