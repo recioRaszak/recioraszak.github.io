@@ -1,0 +1,251 @@
+@font-face {
+    font-family: gamer;
+    src: url(../fonts/Gamer.ttf);
+    font-weight:normal;
+}
+
+body {
+    background-color: rgb(13, 13, 43);
+    color:coral;
+    font-family:gamer, Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;padding:0;
+    text-rendering: optimizeSpeed;
+    font-smooth: never;
+    overflow: hidden;
+
+    text-shadow:0 0 10px currentColor;
+
+    animation-name: bodyColor;
+    animation-duration:20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+a {
+    color:cornflowerblue;
+}
+
+a:active,a:hover {
+    color:rgb(162, 195, 255);
+}
+
+h1, h2, h3, h4, figure {
+    font-weight:normal;
+    margin:0 0 20px 0;
+}
+
+h1 {
+    font-size:48px;
+    line-height:1;
+}
+h2 {
+    font-size:24px;
+    line-height: 1;
+}
+
+h1, h2, p, p a {
+    animation-name:huerotate;
+    animation-duration:10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes huerotate {
+    from {
+     filter:hue-rotate(0deg);   
+    }
+    to {
+        filter:hue-rotate(360deg);   
+       }
+}
+
+.titles {
+    margin:10vh auto;
+    max-width:1200px;
+    padding:0 30px;
+    text-align:right;
+    position:relative;
+    z-index:2;
+}
+
+
+.star {
+    width:5px;
+    height:5px;
+    background:#fff;
+    border-radius:50%;
+    position:absolute;
+    z-index:1;
+    box-shadow:0 0 5px currentColor;
+}
+
+.color-1 {
+    color:white;
+    background-color: white;
+}
+
+.color-2 {
+    color:lemonchiffon;
+    background-color: lemonchiffon;
+}
+
+.color-3 {
+    color:lavender;
+    background-color: lavender;
+}
+
+.color-4 {
+    color:pink;
+    background-color: pink;
+}
+
+.stars-layer {
+    width:100vh;
+    height:100vh;
+    position:absolute;
+    z-index:1;
+    left:0;top:0;right:0;bottom:0;
+    transform-origin:10%;
+
+    animation-name:starzoom;
+    animation-duration:2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+
+    opacity:0;
+    transition:.5s;
+}
+
+.d1 {
+    animation-delay:.25s;
+}
+.d2 {
+    animation-delay:.75s;
+}
+.d3 {
+    animation-delay:1.25s;
+}
+
+@keyframes starzoom {
+    0% {
+        transform:scale(0);
+        opacity:0;
+    }
+    70% {
+        opacity:1;
+    }
+    100% {
+        transform:scale(3);
+        opacity:0;
+    }
+}
+
+.avatar img {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    mix-blend-mode: screen;
+    animation-name: rotateColor;
+    animation-duration:.0005s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition:.2s;
+
+    transform:translateX(10px);
+    width:150px;
+    height:150px;
+}
+@media(min-width:768px) {
+    .avatar img {
+        width:200px;
+        height:200px;
+    }
+}
+
+@keyframes rotateColor {
+    0% {
+        mix-blend-mode: screen;
+    }
+    10% {
+        mix-blend-mode: soft-light;
+    }
+    20% {
+        mix-blend-mode: color-dodge;
+    }
+    30% {
+        mix-blend-mode: darken;
+    }
+    40% {
+        mix-blend-mode: difference;
+    }
+    50% {
+        mix-blend-mode:exclusion;
+    }
+    60% {
+        mix-blend-mode:hard-light;
+    }
+    70% {
+        mix-blend-mode: multiply;
+    }
+    80% {
+        mix-blend-mode: hue;
+    }
+    90% {
+        mix-blend-mode: saturation;
+    }
+    100% {
+        mix-blend-mode: color-burn;
+    }
+}
+
+@keyframes bodyColor {
+    0% {
+        background-color: rgb(13, 13, 43);
+    }
+    10% {
+        background-color: rgb(4, 4, 19);
+    }
+    20% {
+        background-color: rgb(13, 4, 19);
+    }
+    40% {
+        background-color: rgb(27, 9, 39);
+    }
+    60% {
+        background-color: rgb(5, 14, 5);
+    }
+    80% {
+        background-color: rgb(26, 20, 9);
+    }
+    100% {
+        background-color: rgb(13, 13, 43);
+    }
+}
+.icons {
+    margin-top:10vh;
+}
+@media(min-width:768px) {
+    .icons {
+        margin-top:33vh;
+    }
+}
+.icons svg {
+    fill:rgb(255, 127, 80);
+    
+}
+.icons a {
+    text-decoration:none;
+    display:inline-block;
+    opacity:.75;
+}
+
+.icons a:hover,
+.icons a:active
+ {opacity:1 }
+
+.icons path {
+    filter:drop-shadow(0 0 10px rgba(255, 127, 80,.5));
+    animation-name: bodyColor;
+    animation-duration:20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
