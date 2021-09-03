@@ -117,6 +117,15 @@ h1, h2, p, p a {
     transition:.5s;
 }
 
+.wrapper {
+    width:100vh;
+    height:100vh;
+    position:absolute;
+    z-index:1;
+    left:0;top:0;right:0;bottom:0;
+    overflow: hidden;
+}
+
 .d1 {
     animation-delay:.25s;
 }
