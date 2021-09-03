@@ -124,6 +124,7 @@ h1, h2, p, p a {
     z-index:1;
     left:0;top:0;right:0;bottom:0;
     overflow: hidden;
+    max-width: 100%;
 }
 
 .d1 {
