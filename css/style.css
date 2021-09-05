@@ -240,7 +240,10 @@ h1, h2, p, p a {
 }
 .icons svg {
     fill:rgb(255, 127, 80);
-    
+    animation-name: huerotate;
+    animation-duration:20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 .icons a {
     text-decoration:none;
@@ -254,8 +257,39 @@ h1, h2, p, p a {
 
 .icons path {
     filter:drop-shadow(0 0 10px rgba(255, 127, 80,.5));
-    animation-name: bodyColor;
+    
+}
+
+.cat {
+    width:450px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+    position:absolute;
+    bottom:-5%;
+    left:0;right:10%;
+    max-width:80%;
+    opacity:.05;
+
+    transform-origin:50% 100%;
+
+    animation-name: gato;
     animation-duration:20s;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+}
+
+@keyframes gato {
+    0% {
+        transform:scale(1)rotate(-5deg);
+        opacity:.05;
+    }
+    70% {
+        transform:scale(1.2)rotate(5deg);
+        opacity:.1;
+    }
+    100% {
+        transform:scale(1)rotate(-5deg);
+        opacity:.05;
+    }
 }
