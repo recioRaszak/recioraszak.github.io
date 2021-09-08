@@ -22,6 +22,140 @@
 		<h2 id="h2">Israel Mateo Manzano</h2>
 
 
+		<ul class="menu">
+			<li class="js-showbio"><span>[1] </span>About / Bio</li><!--
+			--><li class="js-showlogos"><span>[2] </span>Clients / Agencies</li><!--
+		--><li class="js-goodbye"><span>[3] </span>Exit</li>
+		</ul>
+
+
+
+
+		<div class="modalillo modalillo-about">
+			<button class="clous js-showmain">X</button>
+			<div class="modalillo-about-inner">
+
+				<img src="img/cat2.png" alt="minino" class="cat2">
+
+				<h3>[1] About / Bio</h3>
+
+				<p>Badalona -Barcelona, Spain- 1976.</p>
+				
+				<p>With training and vocation as a creative graphic designer, I have focused most of my career on the
+				development of interactive products, mostly for the web. In the last decade I have been working both in design and
+				development, although more in the second, with WordPress as a content management platform, among others.</p>
+				
+				<p>I currently work at <a href="https://www.omitsis.com/" target="_blank" rel="noopener noreferer">Omitsis Consulting</a> , a serious and solid company in Barcelona that covers technological development services in
+				different fields.</p>
+				<p>I consider me an open and outgoing person, with a lot of hobbies and passions. I love comic books, pop culture, surfskate and lately I've been
+				hitting Lego again.</p>
+
+
+				</div>
+		</div>
+
+
+		<div class="modalillo modalillo-clients">
+			<button class="clous js-showmain">X</button>
+			<div class="modalillo-clients-inner">
+				<h3>[2] Clients / Agencies</h3>
+				<p>Here are some logos. Always keeps cool to put some logos in websites.</p>
+				<ul class="logogrid">
+					<li>
+						<a href="https://www.bcn3d.com" target="_blank" rel="noopener noreferer">
+							<img src="img/logos/bcn3d.svg" alt="BCN3D">
+						</a>
+					</li><!--
+					--><li>
+						<a href="https://castelldefelscultura.org" target="_blank" rel="noopener noreferer">
+							<img src="img/logos/castelldefels.png" alt="Castelldefels Cultura">
+						</a>
+					</li><!--
+					--><li>
+						<a href="https://www.clonica.net" target="_blank" rel="noopener noreferer">
+							<img src="img/logos/clonica.png" alt="Clonica Networks">
+						</a>
+					</li><!--
+					--><li>
+						<a href="https://www.frigicoll.es" target="_blank" rel="noopener noreferer">
+							<img src="img/logos/frigicoll.png" alt="Frigicoll">
+						</a>
+					</li><!--
+
+
+					--><li>
+						<a href="https://lvp.global/" target="_blank" rel="noopener noreferer">
+							<img src="img/logos/lvp.svg" alt="Liga de Videojuegos Profesional">
+						</a>
+					</li><!--
+					--><li>
+						<a href="https://www.mejorconweb.com" target="_blank" rel="noopener noreferer">
+							<img src="img/logos/mejorconweb.svg" alt="MejorConWeb">
+						</a>
+					</li><!--
+					--><li>
+						<a href="https://www.midea.es" target="_blank" rel="noopener noreferer">
+							<img src="img/logos/midea.png" alt="Midea">
+						</a>
+					</li><!--
+					--><li>
+						<a href="https://www.molinsderei.cat" target="_blank" rel="noopener noreferer">
+							<img src="img/logos/molins.png" alt="Ajuntament de Molins de Rei">
+						</a>
+					</li><!--
+
+					--><li>
+						<a href="https://www.omitsis.com" target="_blank" rel="noopener noreferer">
+							<img src="img/logos/omitsis.svg" alt="Omitsis">
+						</a>
+					</li><!--
+					--><li>
+						<a href="https://www.rosadelsvents.es" target="_blank" rel="noopener noreferer">
+							<img src="img/logos/rosadelsvents.png" alt="Rosa dels Vents">
+						</a>
+					</li><!--
+					--><li>
+						<a href="https://www.rvhotels.es" target="_blank" rel="noopener noreferer">
+							<img src="img/logos/rvhotels.png" alt="RV HOtels">
+						</a>
+					</li><!--
+
+
+
+					--><li>
+						<a href="https://scopely.com/" target="_blank" rel="noopener noreferer">
+							<img src="img/logos/scopely.png" alt="Scopely">
+						</a>
+					</li><!--
+					--><li>
+						<a href="https://spherical.co" target="_blank" rel="noopener noreferer">
+							<img src="img/logos/spherical.png" alt="Spherical">
+						</a>
+					</li><!--
+					--><li>
+						<a href="https://www.submer.com" target="_blank" rel="noopener noreferer">
+							<img src="img/logos/submer.svg" alt="Submer">
+						</a>
+					</li><!--
+					--><li>
+						<a href="https://www.tamarindintelligence.com" target="_blank" rel="noopener noreferer">
+							<img src="img/logos/tamarind.png" alt="Tamarind Intelligence">
+						</a>
+					</li>
+					
+					
+
+				</ul>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
 		<div class="icons">
 			<a href="https://www.facebook.com/imateom" target="_blank" rel="noopener noreferer">
 				<svg viewBox="0 0 50 50" version="1.1" id="svg4" sodipodi:docname="021-facebook.svg" width="50"
@@ -135,86 +269,8 @@
 
 
 	<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-	<script>
-
-		const body = document.getElementById('body');
-
-		function getRandomInt(min, max) {
-			return Math.floor(Math.random() * (max - min)) + min;
-		}
-
-		let n = 0;
-
-		function print_stars(element) {
-			const elemento = document.getElementById(element);
-			const stars = getRandomInt(3, 14);
-			for (n = 0; n < stars; n++) {
-				let X = getRandomInt(1, 100);
-				let Y = getRandomInt(1, 100);
-				let color = getRandomInt(1, 5);
-				//let star = "<div class='star' style='left:"+X+"%;top:"+Y+"%;'></div>";
-				let star = document.createElement("div");
-				star.className = 'star color-' + color;
-				star.setAttribute("style", "left:" + X + "%;top:" + Y + "%;");
-				elemento.appendChild(star);
-			}
-		}
-
-		print_stars('stars-layer-1');
-		print_stars('stars-layer-2');
-		print_stars('stars-layer-3');
-		print_stars('stars-layer-4');
-
-		function changeOrigin() {
-			let X = getRandomInt(1, 100);
-			let Y = getRandomInt(1, 100);
-
-			let fields = document.getElementsByClassName('stars-layer');
-
-			for (var i = 0; i < fields.length; i++) {
-				fields.item(i).setAttribute("style", "transform-origin:" + X + "% " + Y + "%;");
-			}
-		}
-
-		setInterval(changeOrigin, 5000);
-
-		const h1 = document.getElementById('h1');
-
-		var typewriter1 = new Typewriter(h1, {
-			loop: false,
-			delay: 75,
-		});
-
-		typewriter1
-			.pauseFor(500)
-			.typeString('Graphics / UI Designer & Web Frontend / WordPress Developer')/*
-			.pauseFor(300)
-			.deleteChars(10)
-			.typeString('<strong>JS</strong> plugin for a cool typewriter effect and ')
-			.typeString('<strong>only <span style="color: #27ae60;">5kb</span> Gzipped!</strong>')
-			.pauseFor(1000)*/
-			.start();
-
-
-		const h2 = document.getElementById('h2');
-
-		var typewriter2 = new Typewriter(h2, {
-			loop: false,
-			delay: 75,
-		});
-
-		typewriter2
-			.pauseFor(3500)
-			.typeString('Israel Mateo Manzano')/*
-			.pauseFor(300)
-			.deleteChars(10)
-			.typeString('<strong>JS</strong> plugin for a cool typewriter effect and ')
-			.typeString('<strong>only <span style="color: #27ae60;">5kb</span> Gzipped!</strong>')
-			.pauseFor(1000)*/
-			.start();
-
-	</script>
-
+	<script src="js/stuff.js"></script>
+	
 </body>
 
 </html>
