@@ -7,12 +7,11 @@
 body {
     background-color: rgb(13, 13, 43);
     color:coral;
-    font-family:gamer, Verdana, Geneva, Tahoma, sans-serif;
+    
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; 
     margin:0;padding:0;
-    font-size: 24px;
-line-height: 1;
-    text-rendering: optimizeSpeed;
-    font-smooth: never;
+    font-size: 20px;
+    line-height: 1.4;
     overflow: hidden;
 
     text-shadow:0 0 10px currentColor;
@@ -23,6 +22,13 @@ line-height: 1;
     animation-iteration-count: infinite;
 
     transition:.5s;
+}
+
+h1,h2, h3, h4, h5, .menu, .menu li {
+    font-family:gamer, Verdana, Geneva, Tahoma, sans-serif;
+    text-rendering: optimizeSpeed;
+    font-smooth: never;
+    line-height:1;
 }
 
 body.bio-on {
@@ -44,11 +50,9 @@ h1, h2, h3, h4, figure {
 
 h1 {
     font-size:48px;
-    line-height:1;
 }
 h2,h3 {
     font-size:32px;
-    line-height: 1;
 }
 
 @media(max-width:960px) {
