@@ -414,6 +414,7 @@ h1, h2, p, p a {
     .modalillo-about-inner {
         max-height: 380px;
         overflow:auto;
+        padding-right: 10px;
     }
 
 
