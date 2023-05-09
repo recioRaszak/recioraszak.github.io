@@ -536,7 +536,8 @@ body.bye * {
     justify-content: center;
 }
 
-.logogrid img {
+.logogrid img,
+.logogrid svg {
     max-width: 65%;
     height: auto;
     max-height: 60px;
@@ -544,7 +545,8 @@ body.bye * {
     opacity:.75;
 }
 
-.logogrid li a:hover img {
+.logogrid li a:hover img,
+.logogrid li a:hover svg {
     opacity:1;
 
 }
